@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "file_path": "D:\\computervision\\180301_06_B_CityRoam_01.mp4",
+    "timestamp": "2025-07-16T18:55:28.325563",
+    "sample_rate": 10,
+    "width": 1920,
+    "height": 1080,
+    "fps": 25.0,
+    "frame_count": 359,
+    "duration": 14.36
+  },
+  "shot_cuts": 0,
+  "text_present_ratio": 0.0,
+  "object_analysis": {
+    "person_count": 414,
+    "object_count": 54,
+    "person_ratio": 0.8846153846153846,
+    "object_ratio": 0.11538461538461539,
+    "dominance": "person"
+  }
+}
