@@ -134,7 +134,6 @@ The tool generates a JSON file containing:
     "frame_count": 359,
     "fps": 25.0,
   },
-  },
   "shot_cuts": 0,
   "text_present_ratio": 0.0,
   "object_analysis": {
