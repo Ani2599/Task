@@ -126,41 +126,23 @@ The tool generates a JSON file containing:
 
 ```json
 {
-  "video_info": {
-    "filename": "video.mp4",
-    "duration": 120.5,
-    "fps": 30,
-    "total_frames": 3615
+    "height": 1080,
+    "height": 1080,
+    "fps": 25.0,
+    "fps": 25.0,
+    "fps": 25.0,
+    "frame_count": 359,
+    "fps": 25.0,
   },
-  "shot_cuts": [
-    {
-      "frame_number": 150,
-      "timestamp": 5.0,
-      "confidence": 0.85
-    }
-  ],
-  "text_analysis": {
-    "frames_with_text": 45,
-    "text_percentage": 1.24,
-    "detected_text": [
-      {
-        "frame": 100,
-        "text": "Sample text",
-        "confidence": 0.92
-      }
-    ]
   },
+  "shot_cuts": 0,
+  "text_present_ratio": 0.0,
   "object_analysis": {
-    "person_dominant_frames": 120,
-    "object_dominant_frames": 200,
-    "person_percentage": 33.2,
-    "detected_objects": [
-      {
-        "frame": 50,
-        "objects": ["person", "car", "tree"],
-        "confidence_scores": [0.95, 0.88, 0.76]
-      }
-    ]
+    "person_count": 414,
+    "object_count": 54,
+    "person_ratio": 0.8846153846153846,
+    "object_ratio": 0.11538461538461539,
+    "dominance": "person"
   }
 }
 ```
